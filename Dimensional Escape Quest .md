@@ -32,6 +32,9 @@ Unknown Command: secret 0 "Blip-blop, in a pickle with a hiccup! Shmiggity-shmac
 
 A hidden command? Now things are getting interesting.
 
+![Screenshot 2025-03-10 141644](https://github.com/user-attachments/assets/08062583-2771-4014-86e9-88d05d4281c6)
+
+
 ---
 
  Step 2: Unleashing the Secret Spell
@@ -40,6 +43,11 @@ Armed with this newfound knowledge, we return to the game and input the forbidde
 We type it in. Hit enter. And then—
 
 🎉 FLAG CAPTURED! 🎉
+
+
+
+![image](https://github.com/user-attachments/assets/f708a2b1-f6c1-4e6c-9fc3-f32bb49f4a9a)
+
 
 The game responds with the coveted flag, rewarding our curiosity and persistence. 
 
