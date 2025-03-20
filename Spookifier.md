@@ -12,6 +12,10 @@ The web app is built using the Mako template engine and has only a single route.
 
 To get a better understanding of how the application processes input, we examine `util.py`, where the `spookify()` function resides.
 
+![Screenshot 2025-03-20 130742](https://github.com/user-attachments/assets/a27bf7f9-b62e-4210-85c7-c2228fdc114a)
+
+
+
  Analyzing `util.py`
 
  `generate_render()` Function
@@ -22,6 +26,9 @@ The `generate_render()` function takes the converted fonts from `spookify()` and
 - The `spookify()` function calls `change_font()` on user input and passes the result to `generate_render()`, which then renders it into the template.
 
 The biggest issue? There’s zero input validation before data is processed by Mako’s `render_template()`, leaving the door wide open for SSTI attacks.
+
+![Screenshot 2025-03-20 130832](https://github.com/user-attachments/assets/4921cdbe-511d-450d-9ad1-1c3043b65bb2)
+
 
 ---
 
@@ -52,6 +59,9 @@ A clever way around this restriction is leveraging Mako's template namespace, wh
 ```
 ${self.imports['os'].popen('cat /flag.txt').read()}
 ```
+
+![Screenshot 2025-03-20 125338](https://github.com/user-attachments/assets/a52f8b1f-fd55-4624-af72-1c27ba524589)
+
 
 Boom! This command fetches the contents of `/flag.txt`, giving us the flag.
 
