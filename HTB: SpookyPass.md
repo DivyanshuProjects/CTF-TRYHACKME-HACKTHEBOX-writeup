@@ -44,7 +44,9 @@ strings ./pass | less
 And guess what? Among the usual noise, a password was printed right in the output:
 
 
+
 s3cr3t_p455_f0r_gh05t5_4nd_gh0ul5
+
 It also mentioned something like:
 
 
