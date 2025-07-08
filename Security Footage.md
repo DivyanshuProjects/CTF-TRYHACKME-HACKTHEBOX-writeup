@@ -25,7 +25,7 @@ So instead of looking for a video file, I needed to reconstruct the stream, imag
 
 ---
 
-🧪 The (Almost) Wrong Turn
+🧪 The (Almost) Wrong Turn.
 At first, I thought:
 "Why not extract the HTTP payloads manually, dump the binary, and convert them into images?"
 I almost started using xxd or hexdump to grab the binary payloads, one by one, and reconstruct the JPEGs manually.
