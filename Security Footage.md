@@ -11,7 +11,7 @@ Except a .pcap file.
 Someone had the foresight to capture the network traffic from the surveillance subnet. That was all I had to work with.
 A single file:
 security-footage-1648933966395.pcap
-And a single shot at the truth.
+And a single shot at the truth
 
 ---
 
