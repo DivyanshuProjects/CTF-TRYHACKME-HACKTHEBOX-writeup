@@ -166,3 +166,6 @@ Next time someone tries to wipe the truth...
 ---
 
 If you enjoyed this post, follow me for more digital forensics deep dives, CTF writeups, and packet-powered adventures.
+
+
+For clear-version : https://medium.com/@divyanshurds.kumar/a-tale-of-packets-and-pixels-recovering-security-footage-from-thin-air-tryhackme-8e291a191cdc
